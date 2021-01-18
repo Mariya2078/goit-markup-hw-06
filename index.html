@@ -290,21 +290,39 @@
         <p>Привет</p>
         <label for="" class="modal_form_field">
             Имя
+            <span class="modal_form_itum">
             <input type="text" name="user_name" class="modal-form_input">
+            <svg class="modal_form_icon">
+                <use href=""></use>
+            </svg>
+            </span>
+
+            
         </label>
         <label for="" class="modal_form_field">
             Телефон
+            <span class="modal_form_itum">
             <input type="tel" name="user_phone" class="modal-form_input">
+            <svg class="modal_form_icon">
+                <use href=""></use>
+            </svg>
+            </span>
         </label>
         <label for="" class="modal_form_field">
+            
             Почта
+            <span class="modal_form_itum">
             <input type="" name="user_mail" class="modal-form_input">
+            <svg class="modal_form_icon">
+                <use href=""></use>
+            </svg>
+            </span>
         </label>
-        <label>
+        <label class="modal_form_field">
             Комментарий
-        <textarea name="user_message" id="" cols="30" rows="10"></textarea>
+        <textarea name="user_message"></textarea>
         </label>
-        <input type="checkbox" class="modal_form-policy">
+        <input type="checkbox" name="user_policy_" value="accept-policy" class="modal_form-policy">
         <label for="" class="modal_form_policy_text">Соглашаюсь с рассылкой и принимаю<a href=""> Условия договора</a></label>
          <button type="submit" class="modal_form_btn">Отправить</button>
     </form>
