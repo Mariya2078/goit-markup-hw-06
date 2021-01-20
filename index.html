@@ -280,50 +280,63 @@
         </li>
     </ul>
 </div>
+<form class="footer-input" autocomplete="off">
+    <p class="footer-it">Подпишитесь на рассылку</p>
+    <label class="social-network-footer-label">
+    <input class="footer-inp"  name="user_message" placeholder="E-mail"> 
+    </label>
+
+
+ </form>
 </div>
 
 </footer>
 <div class="backdrop is-hidden" data-modal>
     <div class="modal"> 
     <button type="button" class="close-btn"  data-modal-close>X</button>
-    <form action="" class="modal_form">
-        <p>Привет</p>
-        <label for="" class="modal_form_field">
-            Имя
+    <form  class="modal_form" autocomplete="off">
+        <p class="capital_later">Оставьте свои данные, мы вам перезвоним</p>
+        <label  class="modal_form_field">
+        <span class="later_modal">  Имя</span>
             <span class="modal_form_itum">
-            <input type="text" name="user_name" class="modal-form_input">
+            <input type="text" name="user_name" class="modal-form_input"  >
             <svg class="modal_form_icon">
-                <use href=""></use>
+                <use href="./spritemodal/sprite.svg#icon-name"></use>
             </svg>
             </span>
+                  </label>
 
-            
-        </label>
-        <label for="" class="modal_form_field">
-            Телефон
+        <label  class="modal_form_field">
+            <span class="later_modal">Телефон</span>
             <span class="modal_form_itum">
-            <input type="tel" name="user_phone" class="modal-form_input">
+            <input type="tel" name="user_phone" class="modal-form_input" >
             <svg class="modal_form_icon">
-                <use href=""></use>
+                <use href="./spritemodal/sprite.svg#icon-phone"></use>
             </svg>
             </span>
         </label>
-        <label for="" class="modal_form_field">
-            
-            Почта
+
+        <label  class="modal_form_field">
+            <span class="later_modal">
+            Почта</span>
             <span class="modal_form_itum">
-            <input type="" name="user_mail" class="modal-form_input">
-            <svg class="modal_form_icon">
-                <use href=""></use>
-            </svg>
+            <input type="email" name="user_mail" class="modal-form_input">
+        <svg class="modal_form_icon">
+            <use href="./spritemodal/sprite.svg#icon-mail"></use>
+        </svg>
             </span>
         </label>
+
         <label class="modal_form_field">
-            Комментарий
-        <textarea name="user_message"></textarea>
+        <span class="later_modal"> Комментарий</span>
+        <textarea class="modal_form_message" name="user_message" placeholder="Введите текст"></textarea>
         </label>
-        <input type="checkbox" name="user_policy_" value="accept-policy" class="modal_form-policy">
-        <label for="" class="modal_form_policy_text">Соглашаюсь с рассылкой и принимаю<a href=""> Условия договора</a></label>
+        <div class="late">
+           
+        <input id="user-policy" type="checkbox" name="user_policy_" value="accept-policy" class="modal_form-policy visually-hidden">
+        
+        <label for="user-policy" class="modal_form_policy_text">Соглашаюсь с рассылкой и принимаю<a  class="modal_form_policy_tex" href=""> Условия договора</a></label>
+        </div>
          <button type="submit" class="modal_form_btn">Отправить</button>
     </form>
     </div>
