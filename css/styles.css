@@ -224,6 +224,9 @@ img {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+
+
 .service-button {
   margin: 0 auto;
   display: block;
@@ -1258,6 +1261,17 @@ padding-bottom:15px;
   margin-top: 4px;
   resize: none;
  }
+ .modal_form_policy_tex:hover, 
+ .modal_form_policy_tex:focus 
+ {
+   outline: none;
+   border-color: solid rgba(33, 33, 33, 0.2);
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   color:  #188CE8;
+ }
+
+ }
  .modal_form_message:focus{
    outline: none;
    border-color: solid rgba(33, 33, 33, 0.2);
@@ -1368,7 +1382,7 @@ padding-left: 29px;
 }
 .foot-send{
   padding-left: 10px;
-  
+  outline: none;
 }
 .capital_later{
 font-family: Roboto;
