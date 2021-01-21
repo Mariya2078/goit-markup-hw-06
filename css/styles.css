@@ -1264,6 +1264,10 @@ padding-bottom:15px;
    transition-duration: 250ms;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  }
+ .modal-form_input{
+   transition-duration: 250ms;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ }
  .modal_form_policy_text::before{
    content: "";
    display: inline-block;
