@@ -283,9 +283,11 @@
 <form class="footer-input" autocomplete="off">
     <p class="footer-it">Подпишитесь на рассылку</p>
     <label class="social-network-footer-label">
-    <input class="footer-inp"  name="user_message" placeholder="E-mail"> 
+    <input   type="email" class="footer-inp"  name="user_message" placeholder="E-mail"> 
     </label>
-<button type="submit" class="modal_form_btn_foot">Отправить</button>
+<button type="submit" class="modal_form_btn_foot"><span class="btn_ft">Отправить</span><a class="foot-send" href=""> <svg class="network-photo">
+        <use href="./spritemodal/sprite.svg#icon-icon-send"></use>
+    </svg></a></button>
 
  </form>
 </div>
@@ -300,9 +302,10 @@
         <span class="later_modal">  Имя</span>
             <span class="modal_form_itum">
             <input type="text" name="user_name" class="modal-form_input"  >
-            <svg class="modal_form_icon">
+                <svg class="modal_form_icon">
                 <use href="./spritemodal/sprite.svg#icon-name"></use>
             </svg>
+            
             </span>
                   </label>
 
